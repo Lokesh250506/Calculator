@@ -1,0 +1,76 @@
+body {
+    background-image : url("https://images.freeimages.com/images/large-previews/6c7/vintage-textured-background-0410-5699359.jpg?fmt");
+    background-repeat : no-repeat;
+    background-position : center;
+    height: 98.3vh;
+    background-size : cover;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.bigobject {
+    height : 600px;
+    width : 350px;
+    flex-direction : column;
+    align-items : center;
+    display : flex;
+    background-color : black;
+    border-radius : 20px;
+}
+
+button {
+    background-color : #333333;
+    font-size : 30px;
+    color : white;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add,
+.equal {
+    background-color : orange;
+
+}
+.clear,
+.back,
+.percentage {
+    background-color : #555555;
+}
+
+
+p {
+    color : white;
+    margin-top : 20px;
+}
+
+.display {
+    margin-bottom : 20px;
+    width : 320px;
+    text-align : right;
+    font-family: 'Pacifico', 'Brush Script MT', cursive;
+    font-size : 50px;
+    color : white;
+    height : 70px;
+    margin-top : 20px;
+    border-radius : 20px;
+}
+
+.numbers {
+    flex-wrap : wrap;
+    width : 330px;
+    display : flex;
+    gap : 2px;
+    
+}
+
+button {
+    width : 80px;
+    height : 80px;
+    border-radius : 200px;
+    border : solid black;
+    border-width : 2px;
+}
+
+
